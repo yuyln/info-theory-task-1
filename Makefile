@@ -1,4 +1,4 @@
-main.pdf: main.tex bibliography.bib fig1.pdf fig2.pdf fig3.pdf fig4.pdf fig5.pdf
+main.pdf: main.tex fig1.pdf fig2.pdf fig3.pdf fig4.pdf fig5.pdf
 	latexmk -pdf main -auxdir=aux
 
 fig1.pdf: main.py
